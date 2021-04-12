@@ -1,0 +1,154 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 19,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Verifying Admin login Functionality with valid data",
+        "description": "",
+        "id": "admin-login;verifying-admin-login-functionality-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9438586400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User on Ranford Home Page",
+            "match": {
+              "location": "clas.user_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3969204300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters valid \"Admin\" and \"Testing@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 19
+                },
+                {
+                  "val": "Testing@",
+                  "offset": 31
+                }
+              ],
+              "location": "clas.user_enters_valid_UserName_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54029899,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verifying Admin Login validation",
+            "match": {
+              "location": "clas.verifying_Admin_Login_validation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1908701001,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Clicks on Logout",
+            "match": {
+              "location": "clas.user_Clicks_on_Logout()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "C:/Users/jahan/eclipse-workspace.present/cucumber/src/feature/f.feature"
+  }
+]
