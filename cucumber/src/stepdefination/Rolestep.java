@@ -58,8 +58,7 @@ public void tester_enters_and_and_click_on_submit(String ji, String po) throws T
 	driver.findElement(By.xpath("//*[@id=\"btnRoles\"]")).click();
 	driver.findElement(By.xpath("//*[@id=\"txtRname\"]")).sendKeys(ji);
 driver.findElement(By.xpath("//*[@id=\\\"lstRtypeN\\\"]")).sendKeys(po);
-	driver.findElement(By.xpath("//*[@id=\"btninsert\"]")).click();
-			
+
 }
 
 @Then("^tester close the application$")
